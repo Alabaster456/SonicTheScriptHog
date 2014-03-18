@@ -1,3 +1,5 @@
+//For TESTING, use JSBin or JSFiddle; If you're trying to EDIT these files, fork this repositiory. 
+//I will get back to anyone who participates out of their own will, so feel free to do as you may. - Yazid
 $(document).ready(function(){
   $('#test').fadeIn('slow'); {
 $('#test').fadeOut('slow');
@@ -27,7 +29,9 @@ $('#play').delay(12100).fadeIn('slow');
   $('#About').delay(12100).fadeIn('slow');  }
   });
 
-//This shortens the JQuery code.
+//ALL FUNCTIONS BELOW SHORTENS THE JQUERY CODING. NOTE: Notice the function names inputted inside of the Jquery coding.
+
+//This is the beginning image of Sonic when he is doing the 'peace' sign.
 function watch(sonic) {
   $('#sonicrun').animate({left: '+=10px'}, 100);
    $('#sonicrun').animate({left: '+=10px'}, 100);
@@ -51,7 +55,7 @@ function watch(sonic) {
    $('#sonicrun').animate({left: '+=10px'}, 100);
  
 }
-//Animation when sonic runs.
+//Animation when sonic runs and then disappears off screen.
 function watch2 () { 
   $('#sonicdash').animate({left: '+=10px'}, 100);
    $('#sonicdash').animate({left: '+=10px'}, 100);
@@ -68,3 +72,4 @@ function watch2 () {
    $('#sonicdash').animate({left: '+=60px'}, 100);
  $('#sonicdash').animate({left: '+=60px'}, 100); $('#sonicdash').delay(300).fadeOut('fast');
 }
+//END
