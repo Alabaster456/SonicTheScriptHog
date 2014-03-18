@@ -2,10 +2,27 @@
 <html>
   <head>
 <script src="http://code.jquery.com/jquery-2.1.0.min.js"></script>
-    <title> Sonic Test </title>
+    <title> Sonic The ScriptHog </title>
 
   </head>
         <body>
+          <script>
+            function Info() {
+            alert("Welcome to the bite-off of Sonic the HedgeHog! This game was made out of HTML, JavaScript and purely JQuery!");
+              alert("Not to be harsh, but I suspect that you already know how to play; using the arrow keys to move Sonic! It's simple!");
+              alert("Enjoy the game!");
+               alert("For future references, I take no copyright in any of the properties that belong to Sega - that being Sonic the Hedgehog, the level designs and etc.");
+            }
+            function About() {
+              alert("Hi! My name is Yazid!");
+              alert("I'm an homeschooled student who started learning how to code at the age of fifteen, using Codecademy as a guide to master the many programming languages that I've learned so far.");
+              alert("But just to note, this is NOT the first project I've made throughout my programming-timeline; I've made plenty of other ones previously, but none of them seemed to achieve some success in my heart unlike this one.");
+              
+              alert("I want to give thanks to my brother, Zaid, who gave me coding tips and ideas!");
+              alert("Codecademy as well, who made me succeed in all of this period. Thank you!");
+              alert("Yazid - Creator and Developer in this bite-off game. Take no copyrights!");
+            }
+          </script>
           <img id="background" src="http://junkerhq.net/xrgb/images/f/f5/Scroll.gif"/>
           <p id="test"> Welcome to... </p>
           <p id="test1"> ..To the most famous classic.. </p>
@@ -15,8 +32,8 @@
        <img id="title" src="http://news.filefront.com/wp-content/uploads/2007/09/son-tit.gif"/>
             <div id="design">
             <button id="play" type="button"> PLAY! </button>
-              <button id="info"> INFORMATION </button>
-              <button id="About"> About Creator </button>
+              <button id="info" onclick="Info()"> INFORMATION </button>
+              <button id="About" onclick="About()"> About Creator </button>
             </div>
             
         </body>
