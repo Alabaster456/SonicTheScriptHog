@@ -35,14 +35,6 @@ position:absolute;
   height:100%'
 }
 
-#sonice {
-display: none;
-  position: absolute;
-  height: 100px;
-  width: 100px;
-  margin-top: -500px;
-  
-}
 
 /*Though the name beats it's purpose, this is the Sonic image in which he does the 'peace' sign. The settings are his
 appropriate properties. */
