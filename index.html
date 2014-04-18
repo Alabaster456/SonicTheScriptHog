@@ -1,14 +1,20 @@
+<!-- I apologize for not making the code neater, but hopefully my comments can guide you. -->
 <!DOCTYPE html>
 <html>
   <head>
 <script src="http://code.jquery.com/jquery-2.1.0.min.js"></script>
 <link rel="stylesheet" type="text/css" href="css/stylesheet.css"/>
 <script src="jquery.js"></script>
+      
+      <!-- Title of page -->
     <title> Sonic The ScriptHog </title>
 
   </head>
         <body>
           <script>
+          
+          //These functions are the onclick buttons that you see on the HTML document. Each has it's own purpose. 
+          
             function Info() {
             alert("Welcome to the bite-off of Sonic the HedgeHog! This game was made out of HTML, JavaScript and purely JQuery!");
               alert("Not to be harsh, but I suspect that you already know how to play; using the arrow keys to move Sonic! It's simple!");
@@ -26,16 +32,23 @@
             }
           </script>
           <img id="background" src="http://junkerhq.net/xrgb/images/f/f5/Scroll.gif"/>
+          <!-- These paragraphs are the start of the game.. -->
           <p id="test"> Welcome to... </p>
           <p id="test1"> ..To the most famous classic.. </p>
           <p id="test2"> <em>Known as..<em> </p>
+          <!-- END -->
+          
+          <!-- IMAGES; Copy the link to see each one if you can't distinguish. -->
           <img id="sonicrun" src="http://i294.photobucket.com/albums/mm114/Bakufuun_and_Cookie/Animated%20GIFS-%20sonic/SonicRunPeace.gif"/>
             <img id="sonicdash" src="http://i294.photobucket.com/albums/mm114/Bakufuun_and_Cookie/Animated%20GIFS-%20sonic/sonicrun.gif"/>
        <img id="title" src="http://news.filefront.com/wp-content/uploads/2007/09/son-tit.gif"/>
+            <!-- END -->
             <div id="design">
+            <!-- Buttons that are displayed on the HTML document.. -->
             <button id="play" type="button"> PLAY! </button>
               <button id="info" onclick="Info()"> INFORMATION </button>
               <button id="About" onclick="About()"> About Creator </button>
+              <!-- END -->
             </div>
             
         </body>
