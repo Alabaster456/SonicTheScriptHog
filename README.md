@@ -13,7 +13,7 @@ Ideas & Questions:
 3. A jump button should be enabled, as well as a ending goal for the user.
 4. Sound should be inputted! (See about this)
 5. The user should be able to play Sonic AND **Knuckles** perhaps?
-6. There should be a Sonic loading screen (like back in the old days), so that the user can select play or indulge into how to play (*Love* this idea).
+  6. There should be a Sonic loading screen (like back in the old days), so that the user can select play or indulge into how to play (FINISHED).
 
 P.S Your ideas, suggestions or whatever they may be will be added to the list (above).
 
