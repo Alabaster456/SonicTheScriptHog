@@ -1,5 +1,8 @@
-//For TESTING, use JSBin or JSFiddle; If you're trying to EDIT these files, fork this repositiory. 
-//I will get back to anyone who participates out of their own will, so feel free to do as you may. - Yazid
+/* For TESTING, use JSBin or JSFiddle.
+* If you're trying to EDIT these files, fork this repositiory. 
+* I will get back to anyone who participates out of their own will,
+* so feel free to do as you may. - Yazid */
+
 $(document).ready(function(){
   $('#test').fadeIn('slow'); {
 $('#test').fadeOut('slow');
@@ -29,7 +32,8 @@ $('#play').delay(12100).fadeIn('slow');
   $('#About').delay(12100).fadeIn('slow');  }
   });
 
-//ALL FUNCTIONS BELOW SHORTENS THE JQUERY CODING. NOTE: Notice the function names inputted inside of the Jquery coding.
+/*ALL FUNCTIONS BELOW SHORTENS THE JQUERY CODING. 
+* NOTE: Notice the function names inputted inside of the Jquery coding. */
 
 //This is the beginning image of Sonic when he is doing the 'peace' sign.
 function watch(sonic) {
