@@ -27,7 +27,7 @@ display: none;
 /* The background settings. It's the side-scrolling image that is used in the beginning of the game. */
 #background {
   display: none;
-position:absolute;
+position:fixed;
   z-index:0;
   left:0;
   top:0;
